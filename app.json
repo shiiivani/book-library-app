@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "book-library",
-    "slug": "book-library",
+    "slug": "book-library-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,7 +13,7 @@
     },
     "updates": {
       "fallbackToCacheTimeout": 0,
-      "url": "https://u.expo.dev/6ebbfa9c-b26e-4d6c-8f25-c79a66d07e57"
+      "url": "https://u.expo.dev/6ca331d0-c3a7-4cdc-a538-2b6e07ed8e95"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -25,18 +25,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.shivani_ghadge.booklibrary"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "6ebbfa9c-b26e-4d6c-8f25-c79a66d07e57"
+        "projectId": "6ca331d0-c3a7-4cdc-a538-2b6e07ed8e95"
       }
     },
     "runtimeVersion": {
       "policy": "appVersion"
-    }
+    },
+    "owner": "shivani_ghadge"
   }
 }
